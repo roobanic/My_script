@@ -8,3 +8,4 @@ echo "Concatenating variables..."
 result="$VAR1 $VAR2"
 echo "Result is: $result"
 echo "Exiting script"
+echo
