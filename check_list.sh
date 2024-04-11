@@ -2,10 +2,13 @@
 #set -x
 echo
 echo
+BOLDGREEN="\e[1;${GREEN}m"
+RED='\033[1;31m'
+BLUE='\033[1;34m'
 echo
-echo "      ==========================================="
-echo "         To find pacakge are installed or not "
-echo "      ==========================================="
+echo -e "${RED}      ==========================================="
+echo -e "${BLUE}         To find pacakge are installed or not "
+echo -e "${RED}      ==========================================="
 echo
 echo
 
