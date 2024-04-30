@@ -4,7 +4,7 @@ echo
 echo
 GREEN="32"
 BOLDGREEN="\e[1;${GREEN}m"
-RED='\033[1;31mm'
+RED='\033[1;31m'
 
 BLUE='\033[1;34mm'
 echo
