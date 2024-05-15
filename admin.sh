@@ -9,7 +9,7 @@ RED='\033[1;31m'
 BLUE='\033[1;34mm'
 echo
 echo -e  "${RED}           		=================================================="
-echo -e  "${BOLDGREEN}                        	      ***** Pls Wait *****  "
+echo -e  "${BOLDGREEN}                        	      ***** Pls Wait ${RED}Rooban {BOLDGREEN}*****  "
 echo -e  "${RED}           		=================================================="
 echo
 echo
