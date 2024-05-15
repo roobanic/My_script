@@ -8,34 +8,42 @@ RED='\033[1;31m'
 
 BLUE='\033[1;34mm'
 echo
-echo -e  "${RED}           =================================================="
-echo -e  "${BOLDGREEN}                        ***** Pls Wait Bro *****  "
-echo -e  "${RED}           =================================================="
+echo -e  "${RED}           		=================================================="
+echo -e  "${BOLDGREEN}                        	      ***** Pls Wait *****  "
+echo -e  "${RED}           		=================================================="
 echo
 echo
-
-echo "harmony" | sudo -S sleep 1
-echo -e "${RED}          ====================================================================="
+echo -e "${RED}          ===================================================================================="
 echo -e "${BOLDGREEN}             * * * * * *  Updating  System packages and application modules * * * * * * "
-echo -e "${RED}          ======================================================================"
+echo -e "${RED}          ===================================================================================="
 echo
+echo "harmony" | sudo -S sleep 1
 sudo sh -c 'apt update --yes && sudo apt upgrade --yes'
 sudo sh -c 'apt-get dist-upgrade --yes'
 echo
-echo -e "${RED}          ====================================================================="
+echo
+echo
+echo -e "${RED}          ===================================================================================================="
 echo -e "${BOLDGREEN}             * * * * * *  Cleaning and Removing unwanted Removal packages files and modules * * * * * * "
-echo -e "${RED}          ======================================================================"
+echo -e "${RED}          ===================================================================================================="
 echo
 sudo sh -c 'apt autoremove --yes && apt autoclean --yes'
 echo
 echo
 echo
-echo -e "${RED}           ======================================================================"
-echo -e "${BOLDGREEN}              * * * * * * *  Thanks for waiting & have a nice day * * * * * * "
-echo -e "${RED}           ======================================================================"
+echo -e "${RED}           ========================================================================================="
+echo -e "${BOLDGREEN}              	* * * * * * *  Thanks for waiting & have a nice day * * * * * * "
+echo -e "${RED}           ========================================================================================="
 echo
 echo
-echo -e "${BOLDGREEN}     @@@@@@@@@@@@@@@  It will close automatically within 4 sec @@@@@@@@@@@"
+echo
+echo
+echo -e "${BOLDGREEN}          		@@@@@@@@@@@@@@@  It will close automatically within 4 sec @@@@@@@@@@@   "
 sleep 4
 echo
 kill -9 $PPID
+echo
+echo
+echo
+echo
+
