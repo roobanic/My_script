@@ -14,12 +14,12 @@ echo -e "${RED} ================================================================
 echo
 echo
 echo -e "${BOLDBLUE}		     ********* To find Daily based internet ********* "
-vnstat -d -i enp3s0
+vnstat -d
 echo -e "${RED} ========================================================================${ENDCOLOR}"
 echo
 echo
 echo
 echo -e "${BOLDBLUE} 		  ********* To Find monthly based internet speed ********"
-vnstat -m -i enp3s0
+vnstat -m
 echo -e "${RED} ========================================================================${ENDCOLOR}"
 echo
