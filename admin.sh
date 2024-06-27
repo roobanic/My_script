@@ -44,6 +44,4 @@ echo
 kill -9 $PPID
 echo
 echo
-echo
-echo
 
