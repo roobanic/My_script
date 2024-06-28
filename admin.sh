@@ -6,10 +6,10 @@ GREEN="32"
 BOLDGREEN="\e[1;${GREEN}m"
 RED='\033[1;31m'
 
-BLUE='\033[1;34mm'
+BLUE='\033[1;34m'
 echo
 echo -e  "${RED}           		=================================================="
-echo -e  "${BOLDGREEN}                        	      ***** Pls Wait ${RED}Rooban {BOLDGREEN}*****  "
+echo -e  "${BOLDGREEN}                        	      ***** Pls Wait ${RED}Rooban ${BOLDGREEN}*****  "
 echo -e  "${RED}           		=================================================="
 echo
 echo
