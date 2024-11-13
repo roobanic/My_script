@@ -37,7 +37,6 @@ echo -e "${RED}           ======================================================
 echo
 echo
 echo
-echo
 echo -e "${BOLDGREEN}          		@@@@@@@@@@@@@@@  It will close automatically within 4 sec @@@@@@@@@@@   "
 sleep 4
 echo
