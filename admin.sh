@@ -32,7 +32,7 @@ echo
 echo
 echo
 echo -e "${RED}           ========================================================================================="
-echo -e "${BOLDGREEN}              	* * * * * * *  Thanks for waiting & have a nice day * * * * * * "
+echo -e "${BOLDGREEN}              		* * * * * * *  Thanks for waiting & have a nice day * * * * * * "
 echo -e "${RED}           ========================================================================================="
 echo
 echo
